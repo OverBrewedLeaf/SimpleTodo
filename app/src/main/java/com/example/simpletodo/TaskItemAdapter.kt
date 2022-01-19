@@ -7,9 +7,7 @@ import android.widget.TextView
 import androidx.appcompat.view.menu.MenuView
 import androidx.recyclerview.widget.RecyclerView
 
-/**
- *
- */
+
 class TaskItemAdapter(val listOfItems: List<String>,
                       val longClickListener: OnLongClickListener) :
     RecyclerView.Adapter<TaskItemAdapter.ViewHolder>(){
